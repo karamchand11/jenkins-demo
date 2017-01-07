@@ -1,6 +1,6 @@
 #!/bin/bash
 a=3
-if { $a -gt 2 }
+if [ $a -gt 2 ]
 then
 echo "A is grater"
 else
