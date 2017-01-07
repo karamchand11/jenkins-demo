@@ -1,9 +1,9 @@
 #!/bin/bash
-c=3
-if { $c -gt 20 }
+c=40
+if [ $c -gt 30 ]
 then
 echo "c is grater"
 else
-echo "c is lessthan 10"
+echo "c is lessthan 30"
 exit 1
 fi
