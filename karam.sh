@@ -1,9 +1,10 @@
 #!/bin/bash
-b=20
-if [ $b -gt 10 ]
+b=10
+if [ $b -gt 11 ]
 then
 echo "b is grater"
 else
-echo "b is lessthan 10"
+echo "b is smaller"
 exit 1
 fi
+
